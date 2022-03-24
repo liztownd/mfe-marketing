@@ -12,12 +12,12 @@ const mount = (el) => {
 }
 
 // cases : development & isolation all mount immediately
-if (process.env.NODE_ENV === 'development'){
+// if (process.env.NODE_ENV === 'development'){
     const devRoot = document.querySelector('#_marketing-dev-root');
     if (devRoot){
         mount(devRoot);
     };
-};
+// };
 
 
 // else, run through container, export Mount fn
