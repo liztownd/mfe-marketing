@@ -14,9 +14,9 @@ const mount = (el) => {
 // cases : development & isolation all mount immediately
 // if (process.env.NODE_ENV === 'development'){
     const devRoot = document.querySelector('#_marketing-dev-root');
-    // if (devRoot){
+    if (devRoot){
         mount(devRoot);
-//     };
+    };
 // };
 
 
