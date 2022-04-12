@@ -212,7 +212,7 @@ export default function Pricing() {
                 <CardActions>
                   <Button
                     component={RouterLink}
-                    to="/auth/signup"
+                    to={"/pricing/:id".replace(':id', tier.title)}
                     fullWidth
                     color="primary"
                   >

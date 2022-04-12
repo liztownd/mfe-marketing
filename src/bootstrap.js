@@ -15,7 +15,7 @@ const mount = (el, { onNavigate, defaultHistory, initialPath }) => {
     };
 
     ReactDOM.render(
-        <App history={history} />,
+        <App history={history}  />,
         el
     )
 
